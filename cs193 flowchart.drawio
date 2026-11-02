@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7qnORl8_TM0L761RWGD4">
+    <mxGraphModel dx="1210" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-9" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="start program" vertex="1">
+          <mxGeometry height="40" width="130" x="370" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-8" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;show menu options:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1. add expense&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2. view expenses&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3. view remaining budget&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;4. exit&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="375" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-11" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="223.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="enter monthly budget" vertex="1">
+          <mxGeometry height="30" width="130" x="370" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;choose option from menu&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="95" x="387.5" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-14" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="enter expense name" vertex="1">
+          <mxGeometry height="30" width="130" x="90" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-16" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="enter expense amount" vertex="1">
+          <mxGeometry height="30" width="130" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-21" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="choose category" vertex="1">
+          <mxGeometry height="30" width="130" x="90" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-38" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347.9999999999998" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="wait for user to press enter" vertex="1">
+          <mxGeometry height="30" width="130" x="283" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-22" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;add expense to ArrayList&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="95" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-41" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;update total spending&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="95" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-24" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;display a list of all expenses&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="288" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-30" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;calculate total spending&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="475" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-31" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;calculate remaining budget&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="476" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-32" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;display total spending and remaining&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="476" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-37" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-10">
+          <mxGeometry relative="1" x="-0.5436" as="geometry">
+            <Array as="points">
+              <mxPoint x="536" y="700" />
+              <mxPoint x="60" y="700" />
+              <mxPoint x="60" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-33" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="wait for user to press enter" vertex="1">
+          <mxGeometry height="30" width="130" x="471" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-36" edge="1" parent="1" source="C2I_UuuPLAOFOx8tSnam-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="C2I_UuuPLAOFOx8tSnam-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font&gt;exit program&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="660" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="end program" vertex="1">
+          <mxGeometry height="40" width="120" x="660" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-42" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="320" />
+            </Array>
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="720" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="154.5" y="320" as="sourcePoint" />
+            <mxPoint x="154.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="347.5" y="320" as="sourcePoint" />
+            <mxPoint x="347.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="534" y="320" as="sourcePoint" />
+            <mxPoint x="534" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2I_UuuPLAOFOx8tSnam-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="719.5" y="320" as="sourcePoint" />
+            <mxPoint x="719.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
