@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
+        double budget = 0;
 
         System.out.println("College Spending Tracker");
 
@@ -20,7 +21,15 @@ public class Main {
             choice = scanner.nextInt();
 
             if (choice == 1) {
-                System.out.println("Monthly budget feature coming soon.");
+                System.out.print("Enter your monthly budget: $");
+                budget = scanner.nextDouble();
+
+                if (budget >= 0) {
+                    System.out.println("Monthly budget set to: $" + budget);
+                } else {
+                    System.out.println("Budget cannot be negative.");
+                    budget = 0;
+                }
             } else if (choice == 2) {
                 System.out.println("Add expense feature coming soon.");
             } else if (choice == 3) {
