@@ -22,22 +22,40 @@ public class Main {
 
             if (choice == 1) {
                 System.out.print("Enter your monthly budget: $");
-                budget = scanner.nextDouble();
+                double newBudget = scanner.nextDouble();
 
-                if (budget >= 0) {
+                if (newBudget >= 0) {
+                    budget = newBudget;
                     System.out.println("Monthly budget set to: $" + budget);
                 } else {
                     System.out.println("Budget cannot be negative.");
-                    budget = 0;
                 }
+
             } else if (choice == 2) {
-                System.out.println("Add expense feature coming soon.");
+                scanner.nextLine();
+
+                System.out.print("Enter expense name: ");
+                String expenseName = scanner.nextLine();
+
+                System.out.print("Enter expense cost: $");
+                double expenseCost = scanner.nextDouble();
+
+                if (expenseCost >= 0) {
+                    System.out.println("Expense added: " + expenseName);
+                    System.out.println("Cost: $" + expenseCost);
+                } else {
+                    System.out.println("Expense cannot be negative.");
+                }
+
             } else if (choice == 3) {
                 System.out.println("Total spending feature coming soon.");
+
             } else if (choice == 4) {
                 System.out.println("Remaining budget feature coming soon.");
+
             } else if (choice == 5) {
                 System.out.println("Goodbye!");
+
             } else {
                 System.out.println("Invalid choice. Please try again.");
             }
