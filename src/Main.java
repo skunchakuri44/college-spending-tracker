@@ -41,8 +41,35 @@ public class Main {
                 double expenseCost = scanner.nextDouble();
 
                 if (expenseCost >= 0) {
+                    System.out.println("Choose a category:");
+                    System.out.println("1. Food");
+                    System.out.println("2. Transportation");
+                    System.out.println("3. Shopping");
+                    System.out.println("4. School");
+                    System.out.println("5. Other");
+
+                    System.out.print("Enter category number: ");
+                    int categoryChoice = scanner.nextInt();
+
+                    String category = "";
+
+                    if (categoryChoice == 1) {
+                        category = "Food";
+                    } else if (categoryChoice == 2) {
+                        category = "Transportation";
+                    } else if (categoryChoice == 3) {
+                        category = "Shopping";
+                    } else if (categoryChoice == 4) {
+                        category = "School";
+                    } else if (categoryChoice == 5) {
+                        category = "Other";
+                    } else {
+                        category = "Other";
+                    }
+
                     System.out.println("Expense added: " + expenseName);
                     System.out.println("Cost: $" + expenseCost);
+                    System.out.println("Category: " + category);
                 } else {
                     System.out.println("Expense cannot be negative.");
                 }
