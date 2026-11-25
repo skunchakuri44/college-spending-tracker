@@ -87,7 +87,13 @@ public class Main {
                 }
 
             } else if (choice == 3) {
-                System.out.println("Total spending feature coming soon.");
+                double totalSpent = 0;
+
+                for (int i = 0; i < expenseCosts.size(); i++) {
+                    totalSpent = totalSpent + expenseCosts.get(i);
+                }
+
+                System.out.println("Total spent: $" + totalSpent);
 
             } else if (choice == 4) {
                 System.out.println("Remaining budget feature coming soon.");
