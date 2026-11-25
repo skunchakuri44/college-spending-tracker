@@ -1,10 +1,16 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int choice = 0;
         double budget = 0;
+
+        ArrayList<String> expenseNames = new ArrayList<String>();
+        ArrayList<Double> expenseCosts = new ArrayList<Double>();
+        ArrayList<String> expenseCategories = new ArrayList<String>();
 
         System.out.println("College Spending Tracker");
 
@@ -67,9 +73,15 @@ public class Main {
                         category = "Other";
                     }
 
+                    expenseNames.add(expenseName);
+                    expenseCosts.add(expenseCost);
+                    expenseCategories.add(category);
+
                     System.out.println("Expense added: " + expenseName);
                     System.out.println("Cost: $" + expenseCost);
                     System.out.println("Category: " + category);
+                    System.out.println("Total expenses saved: " + expenseNames.size());
+
                 } else {
                     System.out.println("Expense cannot be negative.");
                 }
