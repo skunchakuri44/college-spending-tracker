@@ -96,7 +96,21 @@ public class Main {
                 System.out.println("Total spent: $" + totalSpent);
 
             } else if (choice == 4) {
-                System.out.println("Remaining budget feature coming soon.");
+                double totalSpent = 0;
+
+                for (int i = 0; i < expenseCosts.size(); i++) {
+                    totalSpent = totalSpent + expenseCosts.get(i);
+                }
+
+                double remainingBudget = budget - totalSpent;
+
+                System.out.println("Monthly budget: $" + budget);
+                System.out.println("Total spent: $" + totalSpent);
+                System.out.println("Remaining budget: $" + remainingBudget);
+
+                if (remainingBudget < 0) {
+                    System.out.println("Warning: You are over your budget!");
+                }
 
             } else if (choice == 5) {
                 System.out.println("Goodbye!");
