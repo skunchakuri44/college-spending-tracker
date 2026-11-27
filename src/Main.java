@@ -24,15 +24,29 @@ public class Main {
             System.out.println("5. Exit");
 
             System.out.print("Enter your choice: ");
+
+            if (!scanner.hasNextInt()) {
+                System.out.println("Please enter a valid number.");
+                scanner.nextLine();
+                continue;
+            }
+
             choice = scanner.nextInt();
 
             if (choice == 1) {
                 System.out.print("Enter your monthly budget: $");
+
+                if (!scanner.hasNextDouble()) {
+                    System.out.println("Please enter a valid amount.");
+                    scanner.nextLine();
+                    continue;
+                }
+
                 double newBudget = scanner.nextDouble();
 
                 if (newBudget >= 0) {
                     budget = newBudget;
-                    System.out.println("Monthly budget set to: $" + budget);
+                    System.out.printf("Monthly budget set to: $%.2f%n", budget);
                 } else {
                     System.out.println("Budget cannot be negative.");
                 }
@@ -44,6 +58,13 @@ public class Main {
                 String expenseName = scanner.nextLine();
 
                 System.out.print("Enter expense cost: $");
+
+                if (!scanner.hasNextDouble()) {
+                    System.out.println("Please enter a valid amount.");
+                    scanner.nextLine();
+                    continue;
+                }
+
                 double expenseCost = scanner.nextDouble();
 
                 if (expenseCost >= 0) {
@@ -55,9 +76,18 @@ public class Main {
                     System.out.println("5. Other");
 
                     System.out.print("Enter category number: ");
-                    int categoryChoice = scanner.nextInt();
 
-                    String category = "";
+                    if (!scanner.hasNextInt()) {
+                        System.out.println("Invalid category. Using Other.");
+                        scanner.nextLine();
+                        expenseNames.add(expenseName);
+                        expenseCosts.add(expenseCost);
+                        expenseCategories.add("Other");
+                        continue;
+                    }
+
+                    int categoryChoice = scanner.nextInt();
+                    String category = "Other";
 
                     if (categoryChoice == 1) {
                         category = "Food";
@@ -69,8 +99,6 @@ public class Main {
                         category = "School";
                     } else if (categoryChoice == 5) {
                         category = "Other";
-                    } else {
-                        category = "Other";
                     }
 
                     expenseNames.add(expenseName);
@@ -78,7 +106,7 @@ public class Main {
                     expenseCategories.add(category);
 
                     System.out.println("Expense added: " + expenseName);
-                    System.out.println("Cost: $" + expenseCost);
+                    System.out.printf("Cost: $%.2f%n", expenseCost);
                     System.out.println("Category: " + category);
                     System.out.println("Total expenses saved: " + expenseNames.size());
 
@@ -93,7 +121,7 @@ public class Main {
                     totalSpent = totalSpent + expenseCosts.get(i);
                 }
 
-                System.out.println("Total spent: $" + totalSpent);
+                System.out.printf("Total spent: $%.2f%n", totalSpent);
 
             } else if (choice == 4) {
                 double totalSpent = 0;
@@ -104,9 +132,9 @@ public class Main {
 
                 double remainingBudget = budget - totalSpent;
 
-                System.out.println("Monthly budget: $" + budget);
-                System.out.println("Total spent: $" + totalSpent);
-                System.out.println("Remaining budget: $" + remainingBudget);
+                System.out.printf("Monthly budget: $%.2f%n", budget);
+                System.out.printf("Total spent: $%.2f%n", totalSpent);
+                System.out.printf("Remaining budget: $%.2f%n", remainingBudget);
 
                 if (remainingBudget < 0) {
                     System.out.println("Warning: You are over your budget!");
