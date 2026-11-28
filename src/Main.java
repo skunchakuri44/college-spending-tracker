@@ -14,14 +14,15 @@ public class Main {
 
         System.out.println("College Spending Tracker");
 
-        while (choice != 5) {
+        while (choice != 6) {
             System.out.println();
             System.out.println("Main Menu");
             System.out.println("1. Enter monthly budget");
             System.out.println("2. Add an expense");
             System.out.println("3. View total spending");
             System.out.println("4. View remaining budget");
-            System.out.println("5. Exit");
+            System.out.println("5. View expense history");
+            System.out.println("6. Exit");
 
             System.out.print("Enter your choice: ");
 
@@ -77,16 +78,16 @@ public class Main {
 
                     System.out.print("Enter category number: ");
 
+                    int categoryChoice;
+
                     if (!scanner.hasNextInt()) {
                         System.out.println("Invalid category. Using Other.");
                         scanner.nextLine();
-                        expenseNames.add(expenseName);
-                        expenseCosts.add(expenseCost);
-                        expenseCategories.add("Other");
-                        continue;
+                        categoryChoice = 5;
+                    } else {
+                        categoryChoice = scanner.nextInt();
                     }
 
-                    int categoryChoice = scanner.nextInt();
                     String category = "Other";
 
                     if (categoryChoice == 1) {
@@ -97,8 +98,6 @@ public class Main {
                         category = "Shopping";
                     } else if (categoryChoice == 4) {
                         category = "School";
-                    } else if (categoryChoice == 5) {
-                        category = "Other";
                     }
 
                     expenseNames.add(expenseName);
@@ -141,6 +140,23 @@ public class Main {
                 }
 
             } else if (choice == 5) {
+                System.out.println();
+                System.out.println("Expense History");
+                System.out.println("---------------");
+
+                if (expenseNames.size() == 0) {
+                    System.out.println("No expenses added yet.");
+                } else {
+                    for (int i = 0; i < expenseNames.size(); i++) {
+                        System.out.println("Expense " + (i + 1));
+                        System.out.println("Name: " + expenseNames.get(i));
+                        System.out.printf("Cost: $%.2f%n", expenseCosts.get(i));
+                        System.out.println("Category: " + expenseCategories.get(i));
+                        System.out.println();
+                    }
+                }
+
+            } else if (choice == 6) {
                 System.out.println("Goodbye!");
 
             } else {
